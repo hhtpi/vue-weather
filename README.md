@@ -1,5 +1,5 @@
 # vue-mint-ui-weather #
-Vue2 + mint-ui echart
+vue2 + mint-ui + echart
 
 ## 安装步骤 ##
 	npm install
