@@ -60,12 +60,18 @@
                     }
                     if(self.$route.query.item){
                         var c = self.$route.query.item;
+                        self.checkCity(self.cityList,c.cityZh);
                         self.cityList.push({"cityEn": c.cityEn,"cityZh": c.cityZh, "lat": c.lat, "lon": c.lon,"id":rl});
                         var list = self.sortList(self.cityList);
                         self.saveList(list);
                     }
                 });
 //                this.indexList();
+            },
+            checkCity:function(cityList,cityZh){
+                if(cityList.length==0){
+
+                }
             },
             sortList:function(list){
                 var newList = [];
