@@ -1,5 +1,7 @@
 # vue-mint-ui-weather #
 vue2 + mint-ui + echart
+天气数据来源： http://openweathermap.org/api
+参考项目：https://github.com/huang303513/Weather_Vue
 
 ## 安装步骤 ##
 	npm install
